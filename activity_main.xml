@@ -9,18 +9,73 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="PROJETO"
+        android:text="DSM TEAM -"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.001" />
+        app:layout_constraintVertical_bias="0.022" />
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="1 - TOPICO"
-        app:layout_constraintTop_toBottomOf="@id/textView"/>
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="1 - INTEGRANTES"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/p.integrante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text=" Alexander Cardoso"
+        app:layout_constraintTop_toBottomOf="@id/textView2"/>
+
+    <TextView
+        android:id="@+id/s.integrante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text=" Jefferson Bittencourt"
+        app:layout_constraintTop_toBottomOf="@id/p.integrante"/>
+
+    <TextView
+        android:id="@+id/t.integrante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text=" João Pedro Brito"
+        app:layout_constraintTop_toBottomOf="@id/s.integrante"/>
+
+    <TextView
+        android:id="@+id/q.integrante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text=" Leonardo Arero"
+        app:layout_constraintTop_toBottomOf="@id/t.integrante"/>
+
+    <TextView
+        android:id="@+id/quinto.participante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text=" Vinicius Farias"
+        app:layout_constraintTop_toBottomOf="@id/q.integrante"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="524dp"
+        android:layout_marginEnd="0.0dp"
+        android:text="PRÓXIMA PÁGINA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quinto.participante" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
